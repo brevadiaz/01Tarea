@@ -12,6 +12,7 @@ y_new=y_values.to('erg/(s cm2 um)');
 
 plt.plot(x_new,y_new)
 plt.xlim(0,3)
+plt.gcf().subplots_adjust(left=0.15)
 plt.xlabel('Longitud de onda $[\mu m]$')
 plt.ylabel('Flujo $[erg$ $s^{-1} cm^{-2} \mu m]$')
 plt.title('Espectro del Sol')
